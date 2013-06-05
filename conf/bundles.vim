@@ -1,5 +1,14 @@
-Bundle 'tpope/vim-rails.git'
-Bundle 'kien/ctrlp.vim'
-Bundle 'twerth/ir_black'
+" General
+NeoBundle 'kien/ctrlp.vim'
 
-filetype plugin indent on
+" Color schemes
+NeoBundle 'twerth/ir_black'
+
+" Ruby/Rails stuff
+NeoBundle 'vim-ruby/vim-ruby'
+NeoBundle 'tpope/vim-rails'
+
+" Git stuff
+NeoBundle 'airblade/vim-gitgutter'
+
+NeoBundleCheck

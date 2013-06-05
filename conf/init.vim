@@ -1,7 +1,8 @@
 set nocompatible          " be iMproved
 filetype off              " required!
 
-set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
+if has('vim_starting')
+    set runtimepath+=~/.vim/bundle/neobundle.vim/
+endif
 
-filetype plugin indent on " required
+call neobundle#rc(expand('~/.vim/bundle/'))

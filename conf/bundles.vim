@@ -1,5 +1,6 @@
 " General
 NeoBundle 'kien/ctrlp.vim'
+NeoBundle 'tpope/vim-unimpaired'
 
 " Color schemes
 NeoBundle 'twerth/ir_black'

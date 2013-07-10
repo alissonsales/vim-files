@@ -2,6 +2,7 @@
 NeoBundle 'kien/ctrlp.vim'
 NeoBundle 'tpope/vim-unimpaired'
 NeoBundle 'Raimondi/delimitMate'
+NeoBundle 'tpope/vim-endwise'
 
 " Color schemes
 NeoBundle 'twerth/ir_black'

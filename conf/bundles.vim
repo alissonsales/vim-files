@@ -3,6 +3,8 @@ NeoBundle 'kien/ctrlp.vim'
 NeoBundle 'tpope/vim-unimpaired'
 NeoBundle 'Raimondi/delimitMate'
 NeoBundle 'tpope/vim-endwise'
+NeoBundle 'tpope/vim-markdown'
+NeoBundle 'suan/vim-instant-markdown'
 
 " Color schemes
 NeoBundle 'twerth/ir_black'

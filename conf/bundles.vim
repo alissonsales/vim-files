@@ -5,6 +5,7 @@ NeoBundle 'Raimondi/delimitMate'
 NeoBundle 'tpope/vim-endwise'
 NeoBundle 'tpope/vim-markdown'
 NeoBundle 'suan/vim-instant-markdown'
+NeoBundle 'elzr/vim-json'
 
 " Color schemes
 NeoBundle 'twerth/ir_black'

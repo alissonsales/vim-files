@@ -17,4 +17,7 @@ NeoBundle 'tpope/vim-rails'
 " Git stuff
 NeoBundle 'airblade/vim-gitgutter'
 
+" Coffeescript
+NeoBundle 'kchmck/vim-coffee-script'
+
 NeoBundleCheck

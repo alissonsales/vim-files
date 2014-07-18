@@ -43,3 +43,7 @@ else
   let g:font_separator = '\ '
 endif
 
+if executable('ag')
+  " Use ag over grep
+  set grepprg=ag\ --nogroup\ --nocolor
+endif

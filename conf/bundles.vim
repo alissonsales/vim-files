@@ -6,6 +6,7 @@ NeoBundle 'tpope/vim-endwise'
 NeoBundle 'tpope/vim-markdown'
 NeoBundle 'suan/vim-instant-markdown'
 NeoBundle 'elzr/vim-json'
+NeoBundle 'scrooloose/nerdcommenter'
 
 " Color schemes
 NeoBundle 'twerth/ir_black'
@@ -19,5 +20,8 @@ NeoBundle 'airblade/vim-gitgutter'
 
 " Coffeescript
 NeoBundle 'kchmck/vim-coffee-script'
+
+" Golang
+NeoBundle 'fatih/vim-go'
 
 NeoBundleCheck

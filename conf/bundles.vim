@@ -24,4 +24,6 @@ NeoBundle 'kchmck/vim-coffee-script'
 " Golang
 NeoBundle 'fatih/vim-go'
 
+call neobundle#end()
+
 NeoBundleCheck

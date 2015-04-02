@@ -18,8 +18,9 @@ NeoBundle 'tpope/vim-rails'
 " Git stuff
 NeoBundle 'airblade/vim-gitgutter'
 
-" Coffeescript
+" Frontend/Javascript stuff
 NeoBundle 'kchmck/vim-coffee-script'
+NeoBundle 'mustache/vim-mustache-handlebars'
 
 " Golang
 NeoBundle 'fatih/vim-go'

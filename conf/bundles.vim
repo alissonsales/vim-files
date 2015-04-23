@@ -7,6 +7,7 @@ NeoBundle 'tpope/vim-markdown'
 NeoBundle 'suan/vim-instant-markdown'
 NeoBundle 'elzr/vim-json'
 NeoBundle 'scrooloose/nerdcommenter'
+NeoBundle 'mileszs/ack.vim'
 
 " Color schemes
 NeoBundle 'twerth/ir_black'

@@ -9,6 +9,7 @@ NeoBundle 'elzr/vim-json'
 NeoBundle 'scrooloose/nerdcommenter'
 NeoBundle 'mileszs/ack.vim'
 NeoBundle 'scrooloose/syntastic'
+NeoBundle 'bling/vim-airline'
 
 " Color schemes
 NeoBundle 'twerth/ir_black'

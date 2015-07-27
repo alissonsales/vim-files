@@ -28,6 +28,9 @@ NeoBundle 'mustache/vim-mustache-handlebars'
 " Golang
 NeoBundle 'fatih/vim-go'
 
+" Elixir
+NeoBundle 'elixir-lang/vim-elixir'
+
 call neobundle#end()
 
 NeoBundleCheck

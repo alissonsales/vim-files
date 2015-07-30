@@ -28,9 +28,9 @@ set wildignore+=*.o,*.obj,.git,*.rbc
 " Status bar
 set laststatus=2
 
-" Change backup directory
-set backupdir=/tmp
-set directory=/tmp
+"No backups
+set nobackup
+set noswapfile
 
 " Default font
 let g:default_font = 'Source\ Code\ Pro'

@@ -33,7 +33,8 @@ set nobackup
 set noswapfile
 
 " Default font
-let g:default_font = 'Source\ Code\ Pro'
+let g:default_font = 'Menlo'
+set linespace=4
 
 if has("gui_macvim")
   let g:default_font_size = 14

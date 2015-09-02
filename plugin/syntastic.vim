@@ -9,3 +9,4 @@ let g:syntastic_check_on_wq = 0
 
 let g:syntastic_ruby_checkers = ['mri', 'rubocop']
 let g:syntastic_ruby_rubocop_exec = '/Users/alissonsales/bin/rubocop'
+let g:syntastic_mode_map = { 'passive_filetypes': ['html'] }

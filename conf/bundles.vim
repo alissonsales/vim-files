@@ -17,6 +17,10 @@ NeoBundle 'twerth/ir_black'
 " Ruby/Rails stuff
 NeoBundle 'vim-ruby/vim-ruby'
 NeoBundle 'tpope/vim-rails'
+NeoBundle 'nelstrom/vim-textobj-rubyblock', { 'depends' : [
+      \ 'kana/vim-textobj-user',
+      \ 'Spaceghost/vim-matchit'
+      \ ]}
 
 " Git stuff
 NeoBundle 'airblade/vim-gitgutter'

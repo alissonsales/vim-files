@@ -6,7 +6,7 @@ set encoding=utf-8
 set ruler
 
 syntax on
-colorscheme ir_black
+colorscheme atom-dark-256
 
 " Whitespace stuff
 set nowrap

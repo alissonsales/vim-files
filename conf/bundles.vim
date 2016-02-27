@@ -13,6 +13,7 @@ NeoBundle 'bling/vim-airline'
 
 " Color schemes
 NeoBundle 'twerth/ir_black'
+NeoBundle 'gosukiwi/vim-atom-dark'
 
 " Ruby/Rails stuff
 NeoBundle 'vim-ruby/vim-ruby'

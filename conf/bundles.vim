@@ -12,6 +12,7 @@ NeoBundle 'scrooloose/syntastic'
 NeoBundle 'bling/vim-airline'
 NeoBundle 'scrooloose/nerdtree'
 NeoBundle 'Matt-Deacalion/vim-systemd-syntax'
+NeoBundle 'ntpeters/vim-better-whitespace'
 
 " Color schemes
 NeoBundle 'twerth/ir_black'

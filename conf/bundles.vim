@@ -38,6 +38,7 @@ NeoBundle 'fatih/vim-go'
 
 " Elixir
 NeoBundle 'elixir-lang/vim-elixir'
+NeoBundle 'mhinz/vim-mix-format'
 
 call neobundle#end()
 

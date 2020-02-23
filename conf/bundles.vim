@@ -1,45 +1,45 @@
+call plug#begin('~/.config/nvim/bundle')
+
 " General
-NeoBundle 'kien/ctrlp.vim'
-NeoBundle 'tpope/vim-unimpaired'
-NeoBundle 'Raimondi/delimitMate'
-NeoBundle 'tpope/vim-endwise'
-NeoBundle 'tpope/vim-markdown'
-NeoBundle 'suan/vim-instant-markdown'
-NeoBundle 'elzr/vim-json'
-NeoBundle 'scrooloose/nerdcommenter'
-NeoBundle 'mileszs/ack.vim'
-NeoBundle 'scrooloose/syntastic'
-NeoBundle 'bling/vim-airline'
-NeoBundle 'scrooloose/nerdtree'
-NeoBundle 'Matt-Deacalion/vim-systemd-syntax'
-NeoBundle 'ntpeters/vim-better-whitespace'
+Plug 'kien/ctrlp.vim'
+Plug 'tpope/vim-unimpaired'
+Plug 'Raimondi/delimitMate'
+Plug 'tpope/vim-endwise'
+Plug 'tpope/vim-markdown'
+Plug 'suan/vim-instant-markdown'
+Plug 'elzr/vim-json'
+Plug 'scrooloose/nerdcommenter'
+Plug 'mileszs/ack.vim'
+Plug 'scrooloose/syntastic'
+Plug 'bling/vim-airline'
+Plug 'scrooloose/nerdtree'
+Plug 'Matt-Deacalion/vim-systemd-syntax'
+Plug 'ntpeters/vim-better-whitespace'
 
 " Color schemes
-NeoBundle 'twerth/ir_black'
-NeoBundle 'gosukiwi/vim-atom-dark'
+Plug 'twerth/ir_black'
+Plug 'gosukiwi/vim-atom-dark'
 
 " Ruby/Rails stuff
-NeoBundle 'vim-ruby/vim-ruby'
-NeoBundle 'tpope/vim-rails'
-NeoBundle 'nelstrom/vim-textobj-rubyblock', { 'depends' : [
-      \ 'kana/vim-textobj-user',
-      \ 'Spaceghost/vim-matchit'
-      \ ]}
+Plug 'vim-ruby/vim-ruby'
+Plug 'tpope/vim-rails'
+"Plug 'nelstrom/vim-textobj-rubyblock', { 'depends' : [
+"      \ 'kana/vim-textobj-user',
+"      \ 'Spaceghost/vim-matchit'
+"      \ ]}
 
 " Git stuff
-NeoBundle 'airblade/vim-gitgutter'
+Plug 'airblade/vim-gitgutter'
 
 " Frontend/Javascript stuff
-NeoBundle 'kchmck/vim-coffee-script'
-NeoBundle 'mustache/vim-mustache-handlebars'
+Plug 'kchmck/vim-coffee-script'
+Plug 'mustache/vim-mustache-handlebars'
 
 " Golang
-NeoBundle 'fatih/vim-go'
+Plug 'fatih/vim-go'
 
 " Elixir
-NeoBundle 'elixir-lang/vim-elixir'
-NeoBundle 'mhinz/vim-mix-format'
+Plug 'elixir-lang/vim-elixir'
+Plug 'mhinz/vim-mix-format'
 
-call neobundle#end()
-
-NeoBundleCheck
+call plug#end()

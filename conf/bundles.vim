@@ -15,10 +15,13 @@ Plug 'bling/vim-airline'
 Plug 'scrooloose/nerdtree'
 Plug 'Matt-Deacalion/vim-systemd-syntax'
 Plug 'ntpeters/vim-better-whitespace'
+Plug 'tpope/vim-fugitive'
+Plug 'wsdjeg/FlyGrep.vim'
 
 " Color schemes
 Plug 'twerth/ir_black'
 Plug 'gosukiwi/vim-atom-dark'
+Plug 'iCyMind/NeoSolarized'
 
 " Ruby/Rails stuff
 Plug 'vim-ruby/vim-ruby'

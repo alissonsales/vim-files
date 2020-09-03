@@ -7,7 +7,7 @@ set ruler
 set cb=unnamed
 
 syntax on
-colorscheme atom-dark-256
+colorscheme NeoSolarized
 
 " Whitespace stuff
 set nowrap
